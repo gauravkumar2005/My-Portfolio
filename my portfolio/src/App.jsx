@@ -1,22 +1,20 @@
-import './App.css';
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Project from "./pages/Project";
-import Contact from "./pages/Contact";
-import Skills from "./pages/Skills";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import MainLayout from "./Layout/MainLayout";
 
+import Home from "./pages/Home";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <MainLayout />,
+    children: [
+      { index: true, element: <Home /> }
+    ],
+  },
+]);
 
 function App() {
-
-  return (
-    <>
-      <Home />
-      <About />
-      <Skills />
-      <Project />
-      <Contact />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
