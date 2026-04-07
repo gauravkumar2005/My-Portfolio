@@ -9,7 +9,6 @@ function Project() {
 
         <div className="grid md:grid-cols-3 gap-8">
 
-          {/* NexTalk */}
           <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-500/20 transition duration-300">
             <h3 className="text-2xl font-semibold mb-3">NexTalk</h3>
             <p className="text-gray-400 mb-3">
@@ -28,7 +27,6 @@ function Project() {
             </div>
           </div>
 
-          {/* EasyMart */}
           <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-500/20 transition duration-300">
             <h3 className="text-2xl font-semibold mb-3">EasyMart</h3>
             <p className="text-gray-400 mb-3">
@@ -47,7 +45,6 @@ function Project() {
             </div>
           </div>
 
-          {/* Friendo */}
           <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-500/20 transition duration-300">
             <h3 className="text-2xl font-semibold mb-3">Friendo</h3>
             <p className="text-gray-400 mb-3">
@@ -66,7 +63,6 @@ function Project() {
             </div>
           </div>
 
-          {/* SkillForge */}
           <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-500/20 transition duration-300">
             <h3 className="text-2xl font-semibold mb-3">SkillForge</h3>
             <p className="text-gray-400 mb-3">
@@ -85,7 +81,6 @@ function Project() {
             </div>
           </div>
 
-          {/* Portfolio */}
           <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-500/20 transition duration-300">
             <h3 className="text-2xl font-semibold mb-3">Portfolio Website</h3>
             <p className="text-gray-400 mb-3">

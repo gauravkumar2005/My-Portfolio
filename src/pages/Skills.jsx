@@ -9,7 +9,6 @@ function Skills() {
 
         <div className="grid md:grid-cols-3 gap-8">
 
-          {/* Frontend */}
           <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 transition duration-300">
             <h3 className="text-2xl font-semibold mb-6 text-blue-300">
               Frontend
@@ -23,7 +22,6 @@ function Skills() {
             </ul>
           </div>
 
-          {/* Backend */}
           <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 transition duration-300">
             <h3 className="text-2xl font-semibold mb-6 text-blue-300">
               Backend
@@ -35,7 +33,6 @@ function Skills() {
             </ul>
           </div>
 
-          {/* Tools */}
           <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 transition duration-300">
             <h3 className="text-2xl font-semibold mb-6 text-blue-300">
               Tools & Others

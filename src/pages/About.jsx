@@ -3,7 +3,6 @@ function About() {
     <section id="about" className="py-24 px-6 bg-gray-950 text-white">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
-        {/* Left Side */}
         <div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-center md:text-left">
             About <span className="text-blue-400">Me</span>
@@ -48,7 +47,6 @@ function About() {
           </div>
         </div>
 
-        {/* Right Side */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
           <div className="bg-gray-900 p-6 rounded-xl hover:scale-105 transition shadow-lg">

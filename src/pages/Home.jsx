@@ -7,12 +7,10 @@ import Photo from "../assets/Photo.jpeg";
 function Home() {
   return (
     <>
-      {/* Hero Section */}
       <section
         id="home"
         className="min-h-screen flex items-center justify-between px-20 bg-gray-950 text-white"
       >
-        {/* Text */}
         <div className="max-w-xl">
           <h1 className="text-5xl font-bold mb-6">
             Hi, I'm <span className="text-blue-500">Gaurav Kumar</span>
@@ -30,7 +28,6 @@ function Home() {
           </a>
         </div>
 
-        {/* Image */}
         <div>
         <img
          src={Photo}

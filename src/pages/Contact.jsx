@@ -14,7 +14,6 @@ function Contact() {
 
         <div className="grid md:grid-cols-3 gap-8">
 
-          {/* Email */}
           <a
             href="mailto:gauravkumar8414pq@gmail.com"
             className="bg-gray-900 p-8 rounded-2xl hover:scale-105 hover:bg-gray-800 transition"
@@ -27,7 +26,6 @@ function Contact() {
             </p>
           </a>
 
-          {/* GitHub */}
           <a
             href="https://github.com/gauravkumar2005"
             target="_blank"
@@ -41,7 +39,6 @@ function Contact() {
             </p>
           </a>
 
-          {/* LinkedIn */}
           <a
             href="https://www.linkedin.com/in/gaurav-kumar-1530b62aa"
             target="_blank"
@@ -57,7 +54,6 @@ function Contact() {
 
         </div>
 
-        {/* Resume Button */}
         <div className="mt-12">
           <a
             href="#"
