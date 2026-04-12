@@ -102,7 +102,7 @@ function Project() {
            <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-500/20 transition duration-300">
             <h3 className="text-2xl font-semibold mb-3">NexTalk</h3>
             <p className="text-gray-400 mb-3">
-              Real-time chat application with authentication and live messaging.
+              Real-time chat application with authentication and live messaging like Whatsapp.
             </p>
             <p className="text-sm text-blue-300 mb-6">
               React • Firebase • Tailwind
