@@ -93,7 +93,7 @@ function Project() {
               <a href="https://github.com/gauravkumar2005/My-Portfolio" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
               </a>
-              <a href="#" className="px-4 py-2 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
+              <a href="https://my-portfolio-ten-zeta-99.vercel.app/" className="px-4 py-2 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
                 Live Demo
               </a>
             </div>
