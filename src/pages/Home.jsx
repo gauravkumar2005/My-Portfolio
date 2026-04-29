@@ -18,7 +18,7 @@ function Home() {
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-gray-400 mb-6">
-            Full Stack Developer | React | Node.js | MongoDB
+            Full Stack Developer | React | Node.js |
           </p>
 
           <a
