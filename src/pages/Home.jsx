@@ -3,6 +3,7 @@ import Project from "./Project";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Photo from "../assets/Photo.jpeg";
+import Achievement from "./Achievement";
 
 function Home() {
   return (
