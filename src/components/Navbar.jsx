@@ -23,6 +23,10 @@ function Navbar() {
         <li className="text-sm sm:text-base md:text-lg text-gray-700 font-semibold hover:text-blue-600 hover:scale-110 transition duration-300 whitespace-nowrap">
           <a href="#skills">Skills</a>
         </li>
+        
+        <li className="text-sm sm:text-base md:text-lg text-gray-700 font-semibold hover:text-blue-600 hover:scale-110 transition duration-300 whitespace-nowrap">
+          <a href="#skills">Skills</a>
+        </li>
 
         <li className="text-sm sm:text-base md:text-lg text-gray-700 font-semibold hover:text-blue-600 hover:scale-110 transition duration-300 whitespace-nowrap">
           <a href="#contact">Contact</a>
