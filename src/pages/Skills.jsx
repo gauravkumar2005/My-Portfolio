@@ -40,7 +40,7 @@ function Skills() {
             <ul className="space-y-3">
               <li className="bg-gray-800 px-4 py-2 rounded-lg">Git</li>
               <li className="bg-gray-800 px-4 py-2 rounded-lg">GitHub</li>
-              <li className="bg-gray-800 px-4 py-2 rounded-lg"></li>
+              <li className="bg-gray-800 px-4 py-2 rounded-lg">VS Code</li>
               <li className="bg-gray-800 px-4 py-2 rounded-lg">Postman</li>
             </ul>
           </div>
