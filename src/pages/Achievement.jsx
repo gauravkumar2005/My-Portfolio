@@ -1,13 +1,13 @@
 function Achievement() {
   return (
     <section
-      id="achievement"
+      id="achievements"
       className="min-h-screen bg-black text-white px-6 py-16"
     >
       {/* Heading */}
       <div className="text-center mb-14">
-        <h1 className="text-4xl md:text-5xl font-bold">
-          My Certificates
+        <h1 className="text-4xl md:text-5xl font-bold text-blue-400">
+          Achievements
         </h1>
 
         <p className="text-gray-400 mt-4 text-lg">
@@ -22,7 +22,7 @@ function Achievement() {
         <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 transition duration-300 shadow-lg">
 
           <div className="flex items-center justify-between mb-5">
-            <h2 className="text-2xl font-semibold">
+            <h2 className="text-2xl text-blue-400 font-semibold">
               SIH Certificate
             </h2>
 

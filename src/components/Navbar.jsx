@@ -21,7 +21,7 @@ function Navbar() {
         </li>
 
         <li className="text-sm sm:text-base md:text-lg text-gray-700 font-semibold hover:text-blue-600 hover:scale-110 transition duration-300 whitespace-nowrap">
-          <a href="#achievement">Achievement</a>
+          <a href="#achievements">Achievements</a>
         </li>
 
         <li className="text-sm sm:text-base md:text-lg text-gray-700 font-semibold hover:text-blue-600 hover:scale-110 transition duration-300 whitespace-nowrap">
