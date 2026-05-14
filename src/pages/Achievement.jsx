@@ -26,7 +26,7 @@ function Achievement() {
               SIH Certificate
             </h2>
 
-            <span className="bg-white text-black px-3 py-1 rounded-full text-sm font-medium">
+            <span className="bg-white text-blue-400 px-3 py-1 rounded-full text-sm font-medium">
               2025
             </span>
           </div>
@@ -49,7 +49,7 @@ function Achievement() {
               NPTEL Certificate
             </h2>
 
-            <span className="bg-white text-black px-3 py-1 rounded-full text-sm font-medium">
+            <span className="bg-white text-blue-400 px-3 py-1 rounded-full text-sm font-medium">
               2026
             </span>
           </div>
@@ -72,7 +72,7 @@ function Achievement() {
               Web Development
             </h2>
 
-            <span className="bg-white text-black px-3 py-1 rounded-full text-sm font-medium">
+            <span className="bg-white text-blue-400 px-3 py-1 rounded-full text-sm font-medium">
               2026
             </span>
           </div>
