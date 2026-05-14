@@ -42,6 +42,7 @@ function Home() {
       <About />
       <Skills />
       <Project />
+      <Achievement />
       <Contact />
     </>
   );
