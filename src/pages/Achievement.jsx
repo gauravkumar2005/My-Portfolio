@@ -45,7 +45,7 @@ function Achievement() {
         <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 transition duration-300 shadow-lg">
 
           <div className="flex items-center justify-between mb-5">
-            <h2 className="text-2xl font-semibold">
+            <h2 className="text-2xl text-blue-400 font-semibold">
               NPTEL Certificate
             </h2>
 
@@ -68,7 +68,7 @@ function Achievement() {
         <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 transition duration-300 shadow-lg">
 
           <div className="flex items-center justify-between mb-5">
-            <h2 className="text-2xl font-semibold">
+            <h2 className="text-2xl text-blue-400 font-semibold">
               Web Development
             </h2>
 
