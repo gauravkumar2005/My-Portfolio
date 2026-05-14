@@ -1,68 +1,95 @@
-function Achievement () {
-    return(
-     <section>
-    <div className="min-h-screen bg-black text-white px-6 py-12">
-      
+function Achievement() {
+  return (
+    <section
+      id="achievement"
+      className="min-h-screen bg-black text-white px-6 py-16"
+    >
       {/* Heading */}
-      <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold">My Achievements</h1>
-        <p className="text-gray-400 mt-3">
-          My projects and learning journey
+      <div className="text-center mb-14">
+        <h1 className="text-4xl md:text-5xl font-bold">
+          My Certificates
+        </h1>
+
+        <p className="text-gray-400 mt-4 text-lg">
+          Certifications and achievements from my learning journey
         </p>
       </div>
 
-      {/* Cards */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {/* Certificate Cards */}
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 
-        {/* Card 1 */}
-        <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-          <h2 className="text-2xl font-semibold mb-3">
-            Portfolio Website
-          </h2>
+        {/* SIH Certificate */}
+        <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 transition duration-300 shadow-lg">
 
-          <p className="text-gray-400 mb-4">
-            Built a responsive portfolio website using React and Tailwind CSS.
+          <div className="flex items-center justify-between mb-5">
+            <h2 className="text-2xl font-semibold">
+              SIH Certificate
+            </h2>
+
+            <span className="bg-white text-black px-3 py-1 rounded-full text-sm font-medium">
+              2025
+            </span>
+          </div>
+
+          <p className="text-gray-400 leading-7">
+            Participated in Smart India Hackathon and worked on innovative
+            problem-solving and teamwork skills.
           </p>
 
-          <button className="bg-white text-black px-4 py-2 rounded-lg">
-            2025
+          <button className="mt-6 w-full bg-white text-black py-2 rounded-xl font-medium hover:bg-gray-200 transition">
+            View Certificate
           </button>
         </div>
 
-        {/* Card 2 */}
-        <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-          <h2 className="text-2xl font-semibold mb-3">
-            Chat Application
-          </h2>
+        {/* NPTEL Certificate */}
+        <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 transition duration-300 shadow-lg">
 
-          <p className="text-gray-400 mb-4">
-            Created a modern chat UI using Next.js and Tailwind CSS.
+          <div className="flex items-center justify-between mb-5">
+            <h2 className="text-2xl font-semibold">
+              NPTEL Certificate
+            </h2>
+
+            <span className="bg-white text-black px-3 py-1 rounded-full text-sm font-medium">
+              2026
+            </span>
+          </div>
+
+          <p className="text-gray-400 leading-7">
+            Successfully completed NPTEL course and improved technical
+            knowledge and programming concepts.
           </p>
 
-          <button className="bg-white text-black px-4 py-2 rounded-lg">
-            2025
+          <button className="mt-6 w-full bg-white text-black py-2 rounded-xl font-medium hover:bg-gray-200 transition">
+            View Certificate
           </button>
         </div>
 
-        {/* Card 3 */}
-        <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-          <h2 className="text-2xl font-semibold mb-3">
-            Frontend Learning
-          </h2>
+        {/* Web Development Certificate */}
+        <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 transition duration-300 shadow-lg">
 
-          <p className="text-gray-400 mb-4">
-            Improved frontend development skills by building multiple projects.
+          <div className="flex items-center justify-between mb-5">
+            <h2 className="text-2xl font-semibold">
+              Web Development
+            </h2>
+
+            <span className="bg-white text-black px-3 py-1 rounded-full text-sm font-medium">
+              2026
+            </span>
+          </div>
+
+          <p className="text-gray-400 leading-7">
+            Completed frontend web development training using React and
+            Tailwind CSS with responsive UI design.
           </p>
 
-          <button className="bg-white text-black px-4 py-2 rounded-lg">
-            2026
+          <button className="mt-6 w-full bg-white text-black py-2 rounded-xl font-medium hover:bg-gray-200 transition">
+            View Certificate
           </button>
         </div>
 
       </div>
-    </div>  
     </section>
-    );
+  );
 }
 
 export default Achievement;
