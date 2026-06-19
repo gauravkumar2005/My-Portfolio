@@ -54,7 +54,7 @@ function Project() {
               React • Express • MongoDB
             </p>
             <div className="flex gap-4">
-              <a href="https://github.com/gauravkumar2005/Friendo/tree/main/friendo" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
+              <a href="https://github.com/gauravkumar2005/Friendo" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
               </a>
               <a href="#" className="px-4 py-2 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
