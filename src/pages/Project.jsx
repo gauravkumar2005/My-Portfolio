@@ -100,18 +100,18 @@ function Project() {
           </div>
 
            <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-500/20 transition duration-300">
-            <h3 className="text-2xl font-semibold mb-3">NexTalk</h3>
+            <h3 className="text-2xl font-semibold mb-3">Currency Converter</h3>
             <p className="text-gray-400 mb-3">
-              Real-time chat application with authentication and live messaging like Whatsapp.
+              Real-time currency conversion application with historical data and exchange rates.
             </p>
             <p className="text-sm text-blue-300 mb-6">
-              React • Firebase • Tailwind
+              Html • Css • JavaScript
             </p>
             <div className="flex gap-4">
-              <a href="https://github.com/gauravkumar2005/NextTalk" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
+              <a href="https://github.com/gauravkumar2005/Currecy-Converter" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
               </a>
-              <a href="#" className="px-4 py-2 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
+              <a href="https://currecy-converter-seven.vercel.app/" className="px-4 py-2 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
                 Live Demo
               </a>
             </div>
