@@ -1,3 +1,5 @@
+import Nptel from "../assets/Nptel.png";
+
 function Achievement() {
   return (
     <section
