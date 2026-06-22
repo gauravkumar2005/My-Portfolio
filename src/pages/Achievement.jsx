@@ -47,6 +47,7 @@ function Achievement() {
         <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 transition duration-300 shadow-lg">
 
           <div className="flex items-center justify-between mb-5">
+
             <h2 className="text-2xl text-blue-400 font-semibold">
               NPTEL Certificate
             </h2>
@@ -61,9 +62,14 @@ function Achievement() {
             knowledge and programming concepts.
           </p>
 
-          <button className="mt-6 w-full bg-white text-black py-2 rounded-xl font-medium hover:bg-gray-200 transition">
+          <a
+           href={Nptel}
+           target="_blank"
+           rel="noopener noreferrer"
+           className="mt-6 block w-full text-center bg-white text-black py-2 rounded-xl font-medium hover:bg-gray-200 transition"
+          >
             View Certificate
-          </button>
+          </a>
         </div>
 
         {/* Web Development Certificate */}
