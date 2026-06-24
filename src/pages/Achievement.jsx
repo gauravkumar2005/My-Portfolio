@@ -1,4 +1,5 @@
 import Nptel from "../assets/Nptel.png";
+import SIH from "../assets/SIH.jpeg";
 
 function Achievement() {
   return (
@@ -38,9 +39,14 @@ function Achievement() {
             problem-solving and teamwork skills.
           </p>
 
-          <button className="mt-6 w-full bg-white text-black py-2 rounded-xl font-medium hover:bg-gray-200 transition">
+          <a
+           href={SIH}
+           target="_blank"
+           rel="noopener noreferrer"
+           className="mt-6 block w-full text-center bg-white text-black py-2 rounded-xl font-medium hover:bg-gray-200 transition"
+          >
             View Certificate
-          </button>
+          </a>
         </div>
 
         {/* NPTEL Certificate */}
