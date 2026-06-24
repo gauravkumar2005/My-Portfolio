@@ -17,11 +17,11 @@ function Skills() {
              Frontend Development
             </h3>
             <ul className="space-y-3">
-              <li className="bg-gray-800 px-4 py-2 rounded-lg">HTML</li>
-              <li className="bg-gray-800 px-4 py-2 rounded-lg">CSS</li>
-              <li className="bg-gray-800 px-4 py-2 rounded-lg">JavaScript</li>
-              <li className="bg-gray-800 px-4 py-2 rounded-lg">React</li>
-              <li className="bg-gray-800 px-4 py-2 rounded-lg">Tailwind CSS</li>
+              <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">HTML</li>
+              <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">CSS</li>
+              <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">JavaScript</li>
+              <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">React</li>
+              <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">Tailwind CSS</li>
             </ul>
           </div>
 
@@ -30,9 +30,9 @@ function Skills() {
               Backend Development
             </h3>
             <ul className="space-y-3">
-              <li className="bg-gray-800 px-4 py-2 rounded-lg">Node.js</li>
-              <li className="bg-gray-800 px-4 py-2 rounded-lg">Express.js</li>
-              <li className="bg-gray-800 px-4 py-2 rounded-lg">MongoDB</li>
+              <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">Node.js</li>
+              <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">Express.js</li>
+              <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">MongoDB</li>
             </ul>
           </div>
 
@@ -41,10 +41,10 @@ function Skills() {
             Tools & Technologies
            </h3>
             <ul className="space-y-3">
-              <li className="bg-gray-800 px-4 py-2 rounded-lg">Git</li>
-              <li className="bg-gray-800 px-4 py-2 rounded-lg">GitHub</li>
-              <li className="bg-gray-800 px-4 py-2 rounded-lg">VS Code</li>
-              <li className="bg-gray-800 px-4 py-2 rounded-lg">Postman</li>
+              <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">Git</li>
+              <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">GitHub</li>
+              <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">VS Code</li>
+              <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">Postman</li>
             </ul>
           </div>
 
