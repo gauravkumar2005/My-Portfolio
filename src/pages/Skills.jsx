@@ -10,7 +10,7 @@ function Skills() {
           Technologies and tools I use to build modern, responsive and scalable web applications.
         </p>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
           <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-lg hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
             <h3 className="text-2xl font-bold mb-6 text-blue-300">
