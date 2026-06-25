@@ -57,16 +57,16 @@ function Skills() {
              Currently Learning
            </h3>
 
-           <ul className="space-y-3">
-           <li className="bg-gray-800 px-4 py-2 rounded-lg">
+        <ul className="space-y-3">
+          <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">
              Data Structures & Algorithms
-           </li>
+          </li>
 
-           <li className="bg-gray-800 px-4 py-2 rounded-lg">
+          <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">
              Next.js
-           </li>
+          </li>
 
-          <li className="bg-gray-800 px-4 py-2 rounded-lg">
+          <li className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">
             Backend Development
           </li>
         </ul>
