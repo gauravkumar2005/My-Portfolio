@@ -3,13 +3,17 @@ function Project() {
     <section id="projects" className="py-20 px-6 bg-gray-950 text-white">
       <div className="max-w-6xl mx-auto">
 
-        <h2 className="text-4xl font-bold text-center text-blue-400 mb-12">
+        <h2 className="text-4xl font-bold text-center text-blue-400 mb-5">
           My Projects
         </h2>
+        <p className="text-center text-gray-400 max-w-2xl mx-auto mb-8">
+          A collection of projects that showcase my skills in frontend, backend,
+          responsive UI design, and full-stack web development.
+        </p>
 
         <div className="grid md:grid-cols-3 gap-8">
 
-          <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-500/20 transition duration-300">
+          <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-lg hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
             <h3 className="text-2xl font-semibold mb-3">NexTalk</h3>
             <p className="text-gray-400 mb-3">
               Real-time chat application with authentication and live messaging.
@@ -27,7 +31,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-500/20 transition duration-300">
+          <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-lg hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
             <h3 className="text-2xl font-semibold mb-3">EasyMart</h3>
             <p className="text-gray-400 mb-3">
               Full-featured e-commerce website with cart and payment system.
@@ -45,7 +49,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-500/20 transition duration-300">
+          <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-lg hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
             <h3 className="text-2xl font-semibold mb-3">Friendo</h3>
             <p className="text-gray-400 mb-3">
               Social media platform with posts, likes, and comment system.
@@ -63,7 +67,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-500/20 transition duration-300">
+          <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-lg hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
             <h3 className="text-2xl font-semibold mb-3">SkillForge</h3>
             <p className="text-gray-400 mb-3">
               Online learning platform with course enrollment system.
@@ -81,7 +85,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-500/20 transition duration-300">
+          <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-lg hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
             <h3 className="text-2xl font-semibold mb-3">Portfolio Website</h3>
             <p className="text-gray-400 mb-3">
               Personal developer portfolio built with modern UI and routing.
@@ -99,7 +103,7 @@ function Project() {
             </div>
           </div>
 
-           <div className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-500/20 transition duration-300">
+           <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-lg hover:scale-105 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
             <h3 className="text-2xl font-semibold mb-3">Currency Converter</h3>
             <p className="text-gray-400 mb-3">
               Real-time currency conversion application with historical data and exchange rates.
