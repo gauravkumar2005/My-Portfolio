@@ -37,7 +37,7 @@ function Project() {
               <a href="https://github.com/gauravkumar2005/NextTalk" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
               </a>
-              <a href="https://next-talk-eight.vercel.app/" className="px-4 py-2 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
+              <a href="https://next-talk-eight.vercel.app/" className="px-4 py-2 bg-blue-600 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
                 Live Demo
               </a>
             </div>
@@ -67,7 +67,7 @@ function Project() {
               <a href="https://github.com/gauravkumar2005/EasyMart" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
               </a>
-              <a href="https://easy-mart-lyart.vercel.app/" className="px-4 py-2 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
+              <a href="https://easy-mart-lyart.vercel.app/" className="px-4 py-2 bg-blue-600 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
                 Live Demo
               </a>
             </div>
@@ -93,7 +93,7 @@ function Project() {
               <a href="https://github.com/gauravkumar2005/Friendo" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
               </a>
-              <a href="#" className="px-4 py-2 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
+              <a href="#" className="px-4 py-2 bg-blue-600 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
                 Live Demo
               </a>
             </div>
@@ -123,7 +123,7 @@ function Project() {
               <a href="https://github.com/gauravkumar2005/SkillForge" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
               </a>
-              <a href="#" className="px-4 py-2 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
+              <a href="#" className="px-4 py-2 bg-blue-600 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
                 Live Demo
               </a>
             </div>
@@ -149,7 +149,7 @@ function Project() {
               <a href="https://github.com/gauravkumar2005/My-Portfolio" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
               </a>
-              <a href="https://my-portfolio-ten-zeta-99.vercel.app/" className="px-4 py-2 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
+              <a href="https://my-portfolio-ten-zeta-99.vercel.app/" className="px-4 py-2 bg-blue-600 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
                 Live Demo
               </a>
             </div>
@@ -179,7 +179,7 @@ function Project() {
               <a href="https://github.com/gauravkumar2005/Currecy-Converter" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
               </a>
-              <a href="https://currecy-converter-seven.vercel.app/" className="px-4 py-2 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
+              <a href="https://currecy-converter-seven.vercel.app/" className="px-4 py-2 bg-blue-600 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-black transition">
                 Live Demo
               </a>
             </div>
