@@ -18,9 +18,21 @@ function Project() {
             <p className="text-gray-400 mb-3">
               Real-time chat application with authentication and live messaging.
             </p>
-            <p className="text-sm text-blue-300 mb-6">
-              React • Firebase • Tailwind
-            </p>
+            <div className="flex flex-wrap gap-2 mb-6">
+
+            <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+              React
+            </span>
+
+            <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+             Firebase
+            </span>
+
+            <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+              Tailwind CSS
+            </span>
+
+            </div>
             <div className="flex gap-4">
               <a href="https://github.com/gauravkumar2005/NextTalk" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
@@ -36,9 +48,21 @@ function Project() {
             <p className="text-gray-400 mb-3">
               Full-featured e-commerce website with cart and payment system.
             </p>
-            <p className="text-sm text-blue-300 mb-6">
-              React • Node.js • MongoDB
-            </p>
+           <div className="flex flex-wrap gap-2 mb-6">
+
+          <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+            React
+          </span>
+
+          <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+           Node.js
+          </span>
+
+          <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+           MongoDB
+          </span>
+
+         </div>
             <div className="flex gap-4">
               <a href="https://github.com/gauravkumar2005/EasyMart" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
@@ -54,9 +78,17 @@ function Project() {
             <p className="text-gray-400 mb-3">
               Social media platform with posts, likes, and comment system.
             </p>
-            <p className="text-sm text-blue-300 mb-6">
-              React • Express • MongoDB
-            </p>
+            <div className="flex flex-wrap gap-2 mb-6">
+              <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+                React
+              </span>
+              <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+                Express
+              </span>
+              <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+                MongoDB
+              </span>
+            </div>
             <div className="flex gap-4">
               <a href="https://github.com/gauravkumar2005/Friendo" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
