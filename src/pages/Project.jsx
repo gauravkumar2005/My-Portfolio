@@ -21,7 +21,7 @@ function Project() {
             <div className="flex flex-wrap gap-2 mb-6">
 
             <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
-              React
+              Next.js
             </span>
 
             <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
@@ -104,9 +104,21 @@ function Project() {
             <p className="text-gray-400 mb-3">
               Online learning platform with course enrollment system.
             </p>
-            <p className="text-sm text-blue-300 mb-6">
-              React • Node.js • Stripe
-            </p>
+          <div className="flex flex-wrap gap-2 mb-6">
+
+           <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+            Next.js
+           </span>
+
+          <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+           Firebase
+          </span>
+
+         <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+          Tailwind CSS
+         </span>
+
+        </div>
             <div className="flex gap-4">
               <a href="https://github.com/gauravkumar2005/SkillForge" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
@@ -122,9 +134,17 @@ function Project() {
             <p className="text-gray-400 mb-3">
               Personal developer portfolio built with modern UI and routing.
             </p>
-            <p className="text-sm text-blue-300 mb-6">
-              React • Tailwind CSS
-            </p>
+           <div className="flex flex-wrap gap-2 mb-6">
+
+          <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+            React
+          </span>
+
+        <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+         Tailwind CSS
+        </span>
+
+       </div>
             <div className="flex gap-4">
               <a href="https://github.com/gauravkumar2005/My-Portfolio" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
@@ -140,9 +160,21 @@ function Project() {
             <p className="text-gray-400 mb-3">
               Real-time currency conversion application with historical data and exchange rates.
             </p>
-            <p className="text-sm text-blue-300 mb-6">
-              Html • Css • JavaScript
-            </p>
+           <div className="flex flex-wrap gap-2 mb-6">
+
+           <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+             Html
+          </span>
+
+          <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+           Css
+          </span>
+
+         <span className="bg-blue-900 px-3 py-1 rounded-full text-xs">
+          JavaScript
+         </span>
+
+         </div>
             <div className="flex gap-4">
               <a href="https://github.com/gauravkumar2005/Currecy-Converter" className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-black transition">
                 GitHub
