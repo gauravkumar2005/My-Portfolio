@@ -13,13 +13,25 @@ function Home() {
         className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-between max-w-7xl mx-auto px-6 sm:px-10 lg:px-20 py-24 bg-gray-950 text-white gap-16"
       >
         <div className="max-w-xl text-center md:text-left">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
-            Hi, I'm{" "}
-            <span className="text-blue-500">Gaurav Kumar</span>
-          </h1>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
 
-          <p className="text-base sm:text-lg md:text-xl text-gray-400 mb-6">
-            Full Stack Developer | React | Node.js | MongoDB
+          Hi, I'm
+
+         <span className="block text-blue-500">
+           Gaurav Kumar
+         </span>
+
+         </h1>
+
+          <p className="text-xl text-gray-300 mt-6">
+            Aspiring Full Stack Developer
+          </p>
+          <p className="text-gray-400 leading-8 mt-5">
+
+           I build responsive and user-friendly web applications using
+           React, Node.js, MongoDB, and Tailwind CSS. Passionate about
+           creating clean, scalable, and modern digital experiences.
+
           </p>
 
           <a
