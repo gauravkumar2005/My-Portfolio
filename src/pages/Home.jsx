@@ -12,7 +12,7 @@ function Home() {
         id="home"
         className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-between max-w-7xl mx-auto px-6 sm:px-10 lg:px-20 py-24 bg-gray-950 text-white gap-16"
       >
-        <div className="max-w-xl text-center md:text-left">
+        <div className="max-w-2xl text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
 
           Hi, I'm
