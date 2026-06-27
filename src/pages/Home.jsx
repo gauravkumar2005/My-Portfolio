@@ -36,7 +36,7 @@ function Home() {
 
           <a
             href="#projects"
-            className="inline-block px-5 sm:px-6 py-2 sm:py-3 bg-blue-500 rounded-lg hover:bg-blue-600 transition"
+            className="inline-block px-5 sm:px-6 py-2 sm:py-3 bg-blue-500 rounded-lg hover:bg-blue-600 transition mt-5"
           >
             View My Work
           </a>
@@ -46,7 +46,7 @@ function Home() {
           <img
             src={Photo}
             alt="Gaurav Kumar"
-            className="w-40 sm:w-56 md:w-80 rounded-3xl shadow-lg"
+            className="w-72 md:w-96 rounded-3xl border-4 border-blue-500 shadow-2xl hover:scale-105 transition duration-500"
           />
         </div>
       </section>
