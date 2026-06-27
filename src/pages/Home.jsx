@@ -10,7 +10,7 @@ function Home() {
     <>
       <section
         id="home"
-        className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 sm:px-10 md:px-20 pt-24 md:pt-20 bg-gray-950 text-white gap-10"
+        className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-between max-w-7xl mx-auto px-6 sm:px-10 lg:px-20 py-24 bg-gray-950 text-white gap-16"
       >
         <div className="max-w-xl text-center md:text-left">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
