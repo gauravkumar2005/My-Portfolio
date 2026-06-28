@@ -1,3 +1,5 @@
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+
 function Contact() {
   return (
     <section id="contact" className="py-20 px-6 bg-gray-950 text-white">
@@ -19,9 +21,10 @@ function Contact() {
             href="mailto:gauravkumar8414pq@gmail.com"
             className="bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:-translate-y-2 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300"
           >
-            <h3 className="text-xl font-semibold mb-3 text-blue-300">
-              Email
-            </h3>
+         <h3 className="flex items-center justify-center gap-3 text-xl font-semibold mb-3 text-blue-300">
+            <FaEnvelope />
+             Email
+         </h3>
             <p className="text-gray-400">
               gauravkumar8414pq@gmail.com
             </p>
@@ -32,7 +35,8 @@ function Contact() {
             target="_blank"
             className="bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:-translate-y-2 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300"
           >
-            <h3 className="text-xl font-semibold mb-3 text-blue-300">
+            <h3 className="flex items-center justify-center gap-3 text-xl font-semibold mb-3 text-blue-300">
+              <FaGithub />
               GitHub
             </h3>
             <p className="text-gray-400">
@@ -45,7 +49,8 @@ function Contact() {
             target="_blank"
             className="bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:-translate-y-2 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300"
           >
-            <h3 className="text-xl font-semibold mb-3 text-blue-300">
+            <h3 className="flex items-center justify-center gap-3 text-xl font-semibold mb-3 text-blue-300">
+              <FaLinkedin />
               LinkedIn
             </h3>
             <p className="text-gray-400">
