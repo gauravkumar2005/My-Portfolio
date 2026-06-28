@@ -1,15 +1,16 @@
 function Contact() {
   return (
     <section id="contact" className="py-20 px-6 bg-gray-950 text-white">
-      <div className="max-w-5xl mx-auto text-center">
+      <div className="max-w-6xl mx-auto text-center">
 
         <h2 className="text-4xl font-bold text-blue-400 mb-6">
           Get In Touch
         </h2>
 
-        <p className="text-gray-400 mb-12 max-w-2xl mx-auto">
-          I'm always open to new opportunities, collaborations, or
-          interesting projects. Feel free to connect with me.
+        <p className="text-gray-400 text-lg leading-8 max-w-3xl mx-auto mb-14">
+           I'm currently looking for internship and full-time opportunities.
+           If you have a project, collaboration, or job opportunity, feel free
+           to reach out. I'd love to connect with you.
         </p>
 
         <div className="grid md:grid-cols-3 gap-8">
