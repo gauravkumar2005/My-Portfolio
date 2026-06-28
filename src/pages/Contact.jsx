@@ -17,7 +17,7 @@ function Contact() {
 
           <a
             href="mailto:gauravkumar8414pq@gmail.com"
-            className="bg-gray-900 p-8 rounded-2xl hover:scale-105 hover:bg-gray-800 transition"
+            className="bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:-translate-y-2 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300"
           >
             <h3 className="text-xl font-semibold mb-3 text-blue-300">
               Email
@@ -30,7 +30,7 @@ function Contact() {
           <a
             href="https://github.com/gauravkumar2005"
             target="_blank"
-            className="bg-gray-900 p-8 rounded-2xl hover:scale-105 hover:bg-gray-800 transition"
+            className="bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:-translate-y-2 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300"
           >
             <h3 className="text-xl font-semibold mb-3 text-blue-300">
               GitHub
@@ -43,7 +43,7 @@ function Contact() {
           <a
             href="https://www.linkedin.com/in/gaurav-kumar-1530b62aa"
             target="_blank"
-            className="bg-gray-900 p-8 rounded-2xl hover:scale-105 hover:bg-gray-800 transition"
+            className="bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:-translate-y-2 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300"
           >
             <h3 className="text-xl font-semibold mb-3 text-blue-300">
               LinkedIn
