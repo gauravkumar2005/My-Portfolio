@@ -37,14 +37,14 @@ function About() {
           <div className="mt-8 flex gap-4">
             <a
               href="#projects"
-              className="px-7 py-3 bg-blue-500 rounded-lg font-medium hover:bg-blue-600 transition duration-300 shadow-lg"
+              className="px-7 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-medium hover:bg-blue-600 transition duration-300 shadow-lg"
             >
               View Projects
             </a>
 
             <a
               href="#contact"
-              className="px-7 py-3 border border-blue-500 rounded-lg hover:bg-blue-500 hover:text-white transition duration-300"
+              className="px-7 py-3 border border-blue-500 hover:bg-blue-600 rounded-lg hover:bg-blue-500 hover:text-white transition duration-300"
             >
               Contact Me
             </a>
