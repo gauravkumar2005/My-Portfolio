@@ -1,12 +1,16 @@
 function About() {
   return (
     <section id="about" className="py-24 px-6 bg-gray-950 text-white">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
 
         <div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-center md:text-left">
             About <span className="text-blue-400">Me</span>
           </h2>
+
+          <p className="text-gray-400 mb-8 text-lg">
+             Passionate about building modern, scalable, and user-friendly web applications.
+          </p>
 
           <p className="text-gray-400 mb-5 leading-relaxed text-lg">
             Hello! I'm <span className="text-white font-semibold">Gaurav Kumar</span>, 
