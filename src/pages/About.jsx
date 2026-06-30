@@ -1,3 +1,10 @@
+import {
+  FaCode,
+  FaLaptopCode,
+  FaServer,
+  FaBullseye
+} from "react-icons/fa";
+
 function About() {
   return (
     <section id="about" className="py-24 px-6 bg-gray-950 text-white">
@@ -54,17 +61,19 @@ function About() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
           <div className="bg-gray-900 border border-gray-800 p-6 rounded-xl hover:-translate-y-2 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
-            <h4 className="text-xl font-semibold text-blue-400 mb-2">
-              🚀 Development
-            </h4>
+           <h4 className="flex items-center gap-3 text-xl font-semibold text-blue-400">
+            <FaCode />
+              Development
+           </h4>
             <p className="text-gray-400 text-sm">
               Building responsive and modern full stack web applications.
             </p>
           </div>
 
           <div className="bg-gray-900 border border-gray-800 p-6 rounded-xl hover:-translate-y-2 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
-            <h4 className="text-xl font-semibold text-blue-400 mb-2">
-              💻 Frontend
+            <h4 className="flex items-center gap-3 text-xl font-semibold text-blue-400">
+              <FaLaptopCode />
+                Frontend
             </h4>
             <p className="text-gray-400 text-sm">
               Creating clean UI using React, Tailwind CSS and modern tools.
@@ -72,8 +81,9 @@ function About() {
           </div>
 
           <div className="bg-gray-900 border border-gray-800 p-6 rounded-xl hover:-translate-y-2 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
-            <h4 className="text-xl font-semibold text-blue-400 mb-2">
-              🗄 Backend
+            <h4 className="flex items-center gap-3 text-xl font-semibold text-blue-400">
+              <FaServer />
+                Backend
             </h4>
             <p className="text-gray-400 text-sm">
               Working with Node.js, APIs and database management.
@@ -81,8 +91,9 @@ function About() {
           </div>
 
           <div className="bg-gray-900 border border-gray-800 p-6 rounded-xl hover:-translate-y-2 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
-            <h4 className="text-xl font-semibold text-blue-400 mb-2">
-              🎯 Career Goal
+            <h4 className="flex items-center gap-3 text-xl font-semibold text-blue-400">
+              <FaBullseye/>
+                Career Goal
             </h4>
             <p className="text-gray-400 text-sm">
               Preparing for internships and software development roles.
