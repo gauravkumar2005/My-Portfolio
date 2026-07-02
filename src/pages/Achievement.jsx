@@ -19,10 +19,10 @@ function Achievement() {
       </div>
 
       {/* Certificate Cards */}
-      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
         {/* SIH Certificate */}
-        <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 transition duration-300 shadow-lg">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
 
           <div className="flex items-center justify-between mb-5">
             <h2 className="text-2xl text-blue-400 font-semibold">
@@ -50,7 +50,7 @@ function Achievement() {
         </div>
 
         {/* NPTEL Certificate */}
-        <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 transition duration-300 shadow-lg">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
 
           <div className="flex items-center justify-between mb-5">
 
@@ -79,7 +79,7 @@ function Achievement() {
         </div>
 
         {/* Web Development Certificate */}
-        <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 transition duration-300 shadow-lg">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
 
           <div className="flex items-center justify-between mb-5">
             <h2 className="text-2xl text-blue-400 font-semibold">
