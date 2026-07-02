@@ -3,18 +3,18 @@ import SIH from "../assets/SIH.jpeg";
 
 function Achievement() {
   return (
-    <section
+     <section
       id="achievements"
-      className="min-h-screen bg-black text-white px-6 py-16"
-    >
+      className="py-24 px-6 bg-gray-950 text-white"
+     >
       {/* Heading */}
       <div className="text-center mb-14">
         <h1 className="text-4xl md:text-5xl font-bold text-blue-400">
           Achievements
         </h1>
 
-        <p className="text-gray-400 mt-4 text-lg">
-          Certifications and achievements from my learning journey
+        <p className="text-gray-400 text-lg max-w-2xl mx-auto mt-4 leading-8">
+          Professional certifications that reflect my continuous learning and commitment to improving my technical skills.
         </p>
       </div>
 

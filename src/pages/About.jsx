@@ -58,6 +58,7 @@ function About() {
           </div>
         </div>
 
+
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
           <div className="bg-gray-900 border border-gray-800 p-6 rounded-xl hover:-translate-y-2 hover:border-blue-500 hover:shadow-blue-500/20 hover:shadow-xl transition-all duration-300">
