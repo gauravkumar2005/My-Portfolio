@@ -35,8 +35,8 @@ function Achievement() {
           </div>
 
           <p className="text-gray-400 leading-7">
-            Participated in Smart India Hackathon and worked on innovative
-            problem-solving and teamwork skills.
+            Participated in the Smart India Hackathon, collaborating on innovative 
+            solutions while enhancing problem-solving and teamwork skills.
           </p>
 
           <a
@@ -64,8 +64,8 @@ function Achievement() {
           </div>
 
           <p className="text-gray-400 leading-7">
-            Successfully completed NPTEL course and improved technical
-            knowledge and programming concepts.
+              Successfully earned an NPTEL certification, demonstrating a strong commitment
+              to continuous learning and enhancing technical as well as professional skills.
           </p>
 
           <a
@@ -92,8 +92,9 @@ function Achievement() {
           </div>
 
           <p className="text-gray-400 leading-7">
-            Completed frontend web development training using React and
-            Tailwind CSS with responsive UI design.
+               Successfully completed a Web Development certification, gaining practical
+               experience in building responsive and modern web applications using React
+               and Tailwind CSS.
           </p>
 
           <button className="mt-6 w-full bg-white text-black py-2 rounded-xl font-medium hover:bg-gray-200 transition">
