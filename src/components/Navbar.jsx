@@ -10,11 +10,11 @@ function Navbar() {
 
       {/* Logo */}
       <h2 className="text-xl sm:text-2xl md:text-3xl text-blue-600 font-extrabold hover:scale-110 transition duration-300 cursor-pointer whitespace-nowrap">
-        Portfolio
+        Gaurav Kumar
       </h2>
 
       {/* Desktop Menu */}
-      <ul className="hidden md:flex gap-7 items-center">
+      <ul className="hidden md:flex gap-8 items-center">
 
         <li className="text-lg text-gray-700 font-semibold hover:text-blue-600 hover:scale-110 transition duration-300">
           <a href="#home">Home</a>
@@ -59,7 +59,10 @@ function Navbar() {
           </li>
 
           <li className="text-base text-gray-700 font-semibold hover:text-blue-600">
-            <a href="#about">About</a>
+           <a
+           href="#about"
+           onClick={() => setOpen(false)}
+           >About</a>
           </li>
 
           <li className="text-base text-gray-700 font-semibold hover:text-blue-600">
