@@ -43,7 +43,7 @@ function Achievement() {
            href={SIH}
            target="_blank"
            rel="noopener noreferrer"
-           className="mt-6 block w-full text-center bg-white text-black py-2 rounded-xl font-medium hover:bg-gray-200 transition"
+           className="mt-6 block w-full text-center bg-blue-600 text-white py-3 rounded-xl font-medium hover:bg-blue-700 transition duration-300"
           >
             View Certificate
           </a>
@@ -72,7 +72,7 @@ function Achievement() {
            href={Nptel}
            target="_blank"
            rel="noopener noreferrer"
-           className="mt-6 block w-full text-center bg-white text-black py-2 rounded-xl font-medium hover:bg-gray-200 transition"
+           className="mt-6 block w-full text-center bg-blue-600 text-white py-3 rounded-xl font-medium hover:bg-blue-700 transition duration-300"
           >
             View Certificate
           </a>
@@ -97,7 +97,7 @@ function Achievement() {
                and Tailwind CSS.
           </p>
 
-          <button className="mt-6 w-full bg-white text-black py-2 rounded-xl font-medium hover:bg-gray-200 transition">
+          <button className="mt-6 block w-full text-center bg-blue-600 text-white py-3 rounded-xl font-medium hover:bg-blue-700 transition duration-300">
             View Certificate
           </button>
         </div>
