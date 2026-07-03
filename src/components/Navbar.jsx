@@ -55,7 +55,10 @@ function Navbar() {
         <ul className="absolute top-20 left-0 w-full bg-white flex flex-col items-center gap-5 py-6 shadow-md md:hidden">
 
           <li className="text-base text-gray-700 font-semibold hover:text-blue-600">
-            <a href="#home">Home</a>
+            <a
+             href="#home"
+             onClick={() => setOpen(false)}
+             >Home</a>
           </li>
 
           <li className="text-base text-gray-700 font-semibold hover:text-blue-600">
@@ -66,19 +69,31 @@ function Navbar() {
           </li>
 
           <li className="text-base text-gray-700 font-semibold hover:text-blue-600">
-            <a href="#projects">Projects</a>
+            <a 
+            href="#projects"
+            onClick={() => setOpen(false)}
+            >Projects</a>
           </li>
 
           <li className="text-base text-gray-700 font-semibold hover:text-blue-600">
-            <a href="#achievements">Achievements</a>
+            <a
+             href="#achievements"
+             onClick={() => setOpen(false)}
+            > Achievements</a>
           </li>
 
           <li className="text-base text-gray-700 font-semibold hover:text-blue-600">
-            <a href="#skills">Skills</a>
+            <a
+             href="#skills"
+             onClick={() => setOpen(false)}
+             >Skills</a>
           </li>
 
           <li className="text-base text-gray-700 font-semibold hover:text-blue-600">
-            <a href="#contact">Contact</a>
+            <a
+             href="#contact"
+             onClick={() => setOpen(false)}
+            >Contact</a>
           </li>
 
         </ul>
