@@ -25,15 +25,15 @@ function Navbar() {
         </li>
 
         <li className="text-lg text-gray-700 font-medium hover:text-blue-600 hover:scale-110 transition duration-300">
+          <a href="#skills">Skills</a>
+        </li>
+
+        <li className="text-lg text-gray-700 font-medium hover:text-blue-600 hover:scale-110 transition duration-300">
           <a href="#projects">Projects</a>
         </li>
 
         <li className="text-lg text-gray-700 font-medium hover:text-blue-600 hover:scale-110 transition duration-300">
           <a href="#achievements">Achievements</a>
-        </li>
-
-        <li className="text-lg text-gray-700 font-medium hover:text-blue-600 hover:scale-110 transition duration-300">
-          <a href="#skills">Skills</a>
         </li>
 
         <li className="text-lg text-gray-700 font-medium hover:text-blue-600 hover:scale-110 transition duration-300">
@@ -69,6 +69,13 @@ function Navbar() {
           </li>
 
           <li className="text-base text-gray-700 font-medium hover:text-blue-600">
+            <a
+             href="#skills"
+             onClick={() => setOpen(false)}
+             >Skills</a>
+          </li>
+
+          <li className="text-base text-gray-700 font-medium hover:text-blue-600">
             <a 
             href="#projects"
             onClick={() => setOpen(false)}
@@ -80,13 +87,6 @@ function Navbar() {
              href="#achievements"
              onClick={() => setOpen(false)}
             > Achievements</a>
-          </li>
-
-          <li className="text-base text-gray-700 font-medium hover:text-blue-600">
-            <a
-             href="#skills"
-             onClick={() => setOpen(false)}
-             >Skills</a>
           </li>
 
           <li className="text-base text-gray-700 font-medium hover:text-blue-600">
