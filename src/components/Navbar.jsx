@@ -16,27 +16,27 @@ function Navbar() {
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-8 items-center">
 
-        <li className="text-lg text-gray-700 font-semibold hover:text-blue-600 hover:scale-110 transition duration-300">
+        <li className="text-lg text-gray-700 font-medium hover:text-blue-600 hover:scale-110 transition duration-300">
           <a href="#home">Home</a>
         </li>
 
-        <li className="text-lg text-gray-700 font-semibold hover:text-blue-600 hover:scale-110 transition duration-300">
+        <li className="text-lg text-gray-700 font-medium hover:text-blue-600 hover:scale-110 transition duration-300">
           <a href="#about">About</a>
         </li>
 
-        <li className="text-lg text-gray-700 font-semibold hover:text-blue-600 hover:scale-110 transition duration-300">
+        <li className="text-lg text-gray-700 font-medium hover:text-blue-600 hover:scale-110 transition duration-300">
           <a href="#projects">Projects</a>
         </li>
 
-        <li className="text-lg text-gray-700 font-semibold hover:text-blue-600 hover:scale-110 transition duration-300">
+        <li className="text-lg text-gray-700 font-medium hover:text-blue-600 hover:scale-110 transition duration-300">
           <a href="#achievements">Achievements</a>
         </li>
 
-        <li className="text-lg text-gray-700 font-semibold hover:text-blue-600 hover:scale-110 transition duration-300">
+        <li className="text-lg text-gray-700 font-medium hover:text-blue-600 hover:scale-110 transition duration-300">
           <a href="#skills">Skills</a>
         </li>
 
-        <li className="text-lg text-gray-700 font-semibold hover:text-blue-600 hover:scale-110 transition duration-300">
+        <li className="text-lg text-gray-700 font-medium hover:text-blue-600 hover:scale-110 transition duration-300">
           <a href="#contact">Contact</a>
         </li>
 
@@ -44,7 +44,7 @@ function Navbar() {
 
       {/* Hamburger Button */}
       <button
-        className="md:hidden text-blue-600"
+        className="md:hidden text-blue-600 hover:text-blue-700 transition"
         onClick={() => setOpen(!open)}
       >
         {open ? <X size={30} /> : <Menu size={30} />}
@@ -54,42 +54,42 @@ function Navbar() {
       {open && (
         <ul className="absolute top-20 left-0 w-full bg-white flex flex-col items-center gap-5 py-6 shadow-md md:hidden">
 
-          <li className="text-base text-gray-700 font-semibold hover:text-blue-600">
+          <li className="text-base text-gray-700 font-medium hover:text-blue-600">
             <a
              href="#home"
              onClick={() => setOpen(false)}
              >Home</a>
           </li>
 
-          <li className="text-base text-gray-700 font-semibold hover:text-blue-600">
+          <li className="text-base text-gray-700 font-medium hover:text-blue-600">
            <a
            href="#about"
            onClick={() => setOpen(false)}
            >About</a>
           </li>
 
-          <li className="text-base text-gray-700 font-semibold hover:text-blue-600">
+          <li className="text-base text-gray-700 font-medium hover:text-blue-600">
             <a 
             href="#projects"
             onClick={() => setOpen(false)}
             >Projects</a>
           </li>
 
-          <li className="text-base text-gray-700 font-semibold hover:text-blue-600">
+          <li className="text-base text-gray-700 font-medium hover:text-blue-600">
             <a
              href="#achievements"
              onClick={() => setOpen(false)}
             > Achievements</a>
           </li>
 
-          <li className="text-base text-gray-700 font-semibold hover:text-blue-600">
+          <li className="text-base text-gray-700 font-medium hover:text-blue-600">
             <a
              href="#skills"
              onClick={() => setOpen(false)}
              >Skills</a>
           </li>
 
-          <li className="text-base text-gray-700 font-semibold hover:text-blue-600">
+          <li className="text-base text-gray-700 font-medium hover:text-blue-600">
             <a
              href="#contact"
              onClick={() => setOpen(false)}
